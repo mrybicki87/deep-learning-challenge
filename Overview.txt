@@ -1,0 +1,11 @@
+Overview:  The purpose of this analysis is to predict what which charitable endeavors will be successful to help decide how to best use Alphabet Soups funds.
+
+Results:  The best results that I was able to achieve all stayed in the accuracy range of 72%.  
+
+	•  Target column was 'IS_SUCCESSFUL'
+	•  Features were 'APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 		'STATUS', 'INCOME_AMT', 'SPECIAL_CONSIDERATIONS', and 'ASK_AMT'
+	•  The two variables that were removed were 'EIN' and 'NAME'
+	•  I used three hidden layers and an output layer in my attempts to optimize the results, with 100, 50, 	20, and 1 Neurons in the first 2, and 100, 50, 50, and 1 in my final attempt to try to get the best 	results.
+	•  I was not able to get the target model to improve over 75%.
+	•  I tried to place the 'ASK_AMT' into bins to decrease the number of variables, and I even tried 	removing the ask amount since the variables varied so greatly. I also tried to add a cutoff value to the 	'USE_CASE' variable
+
